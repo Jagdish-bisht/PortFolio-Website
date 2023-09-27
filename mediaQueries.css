@@ -1,0 +1,22 @@
+@media screen and (max-width :1200px){
+    .desktop_nav{
+        margin-top: 1rem;
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    
+    #profile{
+        display: block;
+    }
+  
+}
+
+
+
+
+@media screen and (max-width :400px){
+
+
+}

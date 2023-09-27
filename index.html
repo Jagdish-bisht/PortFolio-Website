@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="Navbar">
+
+            <nav class="desktop_nav">
+                <div>
+                    <p class="logo">Jagdish Bisht</p>
+                </div>
+                <div>
+                    <ul class="nav_links">
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav id="hamburger-nav">
+                <div class="logo">Jagdish Bisht</div>
+                <div class="hamburger-menu">
+
+                    <div class="hamburger-icon" onclick="togglemenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="menu-links">
+                        <li><a href="#About" onclick="togglemenu()">About</a></li>
+                        <li><a href="#Experience" onclick="togglemenu()">Experience</a></li>
+                        <li><a href="#Projects" onclick="togglemenu()">Projects</a></li>
+                        <li><a href="#Contacts" onclick="togglemenu()">Contacts</a></li>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div>
+
+        <section id="profile">
+
+            <div class="section_pick_container">
+                <img class="profile_image" src="./image/profile1.jpg" alt="">
+            </div>
+
+            <div class="section_text">
+
+                <p id="section_text_p1">Hello , I'm</p>
+                <h2 id="section_text_h1">Jagdish Bisht</h2>
+                <p id="section_text_p2">Frontend Developer</p>
+
+                <div class="btn_container">
+                    <button class=" btn btn-color-1" onclick="window.open('./image/Resume.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-color-2" onclick="location.href='.#Contacts'">
+                        Contacts info
+                    </button>
+                </div>
+
+                <div class="social_container">
+
+                    <img class="icon" src="./image/linkedin.png" alt="linkedin profile"
+                        onclick="location.href='https://www.linkedin.com'">
+
+                    <img class="icon" src="./image/githubdark.png" alt="github profile"
+                        onclick="location.href='https://github.com'">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="About">
+            <p id="section_text_p1">Get To Know More</p>
+            <h2 id="title">About Me</h2>
+            <div class="about_container">
+
+                <div class="About_pick_container">
+                    <img class="About_image" src="./image/profile.jpg" alt="">
+                </div>
+
+                <div class="about_contents">
+                    <div class="about_box">
+
+                        <div class="experience_box">
+                            <img class="icon" src="./image/medalicon.jpg" alt="">
+                            <h2 class="experience_box_title">Experience</h2>
+                            <p> 1+ years <br />Frontend Development</p>
+                        </div>
+
+                        <div class="education_box">
+                            <img class="icon" src="./image/educationicon.png" alt="">
+                            <h2 class="experience_box_title">Education</h2>
+                            <p> B.Sc. Bachelors Degree <br />M.C.A. Masters Degree</p>
+                        </div>
+
+                    </div>
+
+                    <div class="about_para">
+                        Welcome to my portfolio! I'm a passionate frontend developer dedicated to crafting immersive and
+                        user-friendly digital experiences. With a keen eye for design aesthetics and a commitment to
+                        code excellence, I specialize in turning creative concepts into interactive, responsive websites
+                        and web applications. My journey in web development has equipped me with a diverse skill set
+                        that includes HTML, CSS, JavaScript, and various modern frameworks and libraries.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Experience">
+            <p id="section_text_p1">Explore My</p>
+            <h2 id="title">Experience</h2>
+
+            <div class="experience_container">
+
+                <div class="exprience_box1">
+
+                    <p id="experience_heading">Frontend Development</p>
+                    <div class="column_partion">
+
+                        <div class="experience_column">
+
+                            <div class="experience_infromation">
+
+                                <div class="experience_box1">
+                                    <img class="tick_icon" src="./image/tickimage.png" alt="">
+                                </div>
+                                <div class="experience_box2">
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </div>
+
+                            <div class="experience_infromation">
+                                <div class="experience_box1">
+                                    <img class="tick_icon" src="./image/tickimage.png" alt="">
+                                </div>
+                                <div class="experience_box2">
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="experience_column">
+
+                            <div class="experience_infromation">
+                                <div class="experience_box1">
+                                    <img class="tick_icon" src="./image/tickimage.png" alt="">
+                                </div>
+                                <div class="experience_box2">
+                                    <h3>JavaScript</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </div>
+
+                            <div class="experience_infromation">
+                                <div class="experience_box1">
+                                    <img class="tick_icon" src="./image/tickimage.png" alt="">
+                                </div>
+                                <div class="experience_box2">
+                                    <h3>React JS</h3>
+                                    <p>Fresher</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="exprience_box2">
+                    <p id="experience_heading">Backend Development</p>
+                    <div class="column_partion">
+                        <div class="experience_column">
+
+                            <div class="experience_infromation">
+                                <div class="experience_box1">
+                                    <img class="tick_icon" src="./image/tickimage.png" alt="">
+                                </div>
+                                <div class="experience_box2">
+                                    <h3>NodeJS</h3>
+                                    <p>Fresher</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="Projects">
+            <p id="section_text_p1">Browse My Recent</p>
+            <h2 id="title">Projects</h2>
+            <div class="project_container">
+
+
+
+                <div class="project_box1">
+                    <div class="project_image">
+                        <img class="project_picture" src="./image/SwiggyLandingPage.png" alt="Project one image">
+                    </div>
+                    <div class="project_name">
+                        <h1>Swiggy Landing Page</h1>
+                    </div>
+                    <div class="project_links">
+                        <button id="project_buttons" class=" btn btn-color-1"
+                            onclick="location.href='https://github.com/Jagdish-bisht/Swiggy-landingPage'">github</button>
+                        <button id="project_buttons" class="btn btn-color-2"
+                            onclick="location.href ='https://jagdish-bisht.github.io/Swiggy-landingPage/' ">Live
+                            Demo</button>
+                    </div>
+                </div>
+
+                <div class="project_box1">
+                    <div class="project_image">
+                        <img class="project_picture" src="./image/CalculatorImage.png" alt="Project one image">
+                    </div>
+                    <div class="project_name">
+                        <h1>JavaScript Calculator</h1>
+                    </div>
+                    <div class="project_links">
+                        <button id="project_buttons" class=" btn btn-color-1"
+                            onclick="location.href='https://github.com/Jagdish-bisht/JavaScript-calculator'">github</button>
+                        <button id="project_buttons" class="btn btn-color-2"
+                            onclick="location.href='https://jagdish-bisht.github.io/JavaScript-calculator/'"">Live Demo</button>
+                    </div>
+                </div>
+                <div class=" project_box1">
+                            <div class="project_image">
+                                <img class="project_picture" src="./image/NewsApp.png" alt="Project one image">
+                            </div>
+                            <div class="project_name">
+                                <h1>React News-App</h1>
+                            </div>
+                            <div class="project_links">
+                                <button id="project_buttons" class=" btn btn-color-1"
+                                    onclick="window.open('./assets/Resume.pdf') ">github</button>
+                                <button id="project_buttons" class="btn btn-color-2"
+                                    onclick="location.href='./#Contacts'"">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id=" Contacts">
+                                    <p id="section_text_p1">Get In Touch</p>
+                                    <h2 id="title">Cntact Me</h2>
+                                    <div class="contact_box">
+                                        <div class="contact_container">
+                                            <div class="contact_mail_info">
+                                                <img onclick="window.open('mailto:bishtjagdish1549@gmail.com')"
+                                                    class="icon" src="./image/messegeicon.png" alt="">
+                                                <p onclick="window.open('mailto:bishtjagdish1549@gmail.com')">
+                                                    bishtjagdish1549@gmail.com</p>
+                                            </div>
+                                            <div class="contact_linkedIn_info">
+                                                <img onclick="location.href= 'https://www.linkedin.com/in/jagdish-singh-bisht-b5991a258/'"
+                                                    class="icon" src="./image/linkedin.png" alt="messegeicon">
+                                                <p
+                                                    onclick="location.href= 'https://www.linkedin.com/in/jagdish-singh-bisht-b5991a258/'">
+                                                    Linkedin</p>
+                                            </div>
+                                        </div>
+                                    </div>
+        </section>
+
+        <footer>
+            <div class="footer_container">
+                <p>CopyRight &copy; 2023 Jagdish Bisht All Rights Reserved</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
